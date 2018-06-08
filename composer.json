@@ -1,0 +1,25 @@
+{
+    "name": "abpam/ekatte",
+    "description": "Списък на населените места в Р. България по Селище, Община и Област във вид на архив, готов за използване.",
+    "keywords": ["община", "област", "населени места", "населено място", "екатте", "екате"],
+    "homepage": "http://github.com/ABPAM/ekatte",
+    "type": "library",
+    "minimum-stabilyty": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "ext-zip": "*", 
+        "nuovo/spreadsheet-reader": "^0.5.11"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Avramov",
+            "email": "avramov.emil@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekatte\\": "src/"
+        }
+    }
+}

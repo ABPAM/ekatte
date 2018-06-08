@@ -1,0 +1,4 @@
+vendor/nuovo/spreadsheet-reader/php-excel-reader/excel-reader2.php - Line 917:
+
+	Former: $this->setUTFEncoder('iconv');
+	Now: $this->setUTFEncoder('mb');
